@@ -1,45 +1,108 @@
-body{
+body {
     font-family: 'Open-Sans', sans-serif;
-    color: darkblue;
-    margin: 10px 50px 10px 50px; 
+    color: black;
     background-color: Ivory;
+    background-image: url('https://courses.ics.hawaii.edu/ics314f24/morea/ui-basics/page.gif');
+    background-repeat: no-repeat;
+    margin: 40px 320px 200px 250px;
+    width: 475px;
+    line-height: 175%;
 }
+
+h1.fancy {
+    font-family: 'Style Script', cursive;
+    font-size: 50pt;
+    text-align: center;
+    line-height: 135%;
+}
+
 
 h1, h2 {
     font-family: 'Oswald', sans-serif;
 }
 
 img {
-    float: left;
-    margin-right: 10px;
+    float: center;
+    margin: 0px 0px 10px 150px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    background-color: #333;
+    line-height: 350%;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 14px 20px;
+li {
     display: block;
 }
 
-
-
-.browser-sections {
-    display: flex;
-    justify-content: space-between;
+h1.fancy {
+    font-family: 'Edwardian Script ITC';
+    font-size: 50pt;
+    text-align: center;
+    line-height: 135%;
 }
 
-.browser-column {
-    width: 500px;
-    padding: 1px;
+h2.chapter {
+    font-size: 30pt;
+    text-align: center;
 }
+
+a.left {
+    float: left;
+    font-weight: bold;
+}
+
+a.right {
+    float: right;
+    font-weight: bold;
+}
+
+h1.fancy {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50pt;
+    text-align: center;
+    line-height: 135%;
+}
+
+/* Apply Great Vibes to all headers (h1, h2, etc.) */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+
+/* Additional styling for the h1 with the class fancy */
+h1.fancy {
+    font-size: 50pt;
+    line-height: 135%;
+    text-align: center;
+}
+
+/* Align the navigation and list items centrally */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 350%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Center the table of contents */
+nav ul li {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Center the links in the list */
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: darkblue;
+}
+
+
+
